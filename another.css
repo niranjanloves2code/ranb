@@ -1,0 +1,283 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Hero section fonts */
+
+
+.outfit{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  /* color: grey; */
+}
+
+
+.outfit-two {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+  }
+  
+.hero-para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: grey;
+    line-height: 1.8;
+}
+.lead{
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    text-align: center;
+    color: lightslategray;
+    letter-spacing: 2.5px;
+}
+
+.hero-align>*{
+padding: 1rem;
+}
+
+.bg-image {
+    background-image: url('./logoandimg/adrienolichontwo.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Position for absolute positioning of the image container */
+    height: 100%; /* Adjust height as needed */
+}
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image container */
+    width: 50%; /* Adjust width as needed */
+    max-width: 400px; /* Set a maximum width for responsiveness */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Cover section */
+.bg-align{
+    /* background-color:green; */
+    object-fit:contain;
+}
+
+.cover{
+    font-size: 68px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+/* Services */
+.hero-section {
+    position: relative; /* For positioning the background image */
+    min-height: 500px; /* Adjust as needed */
+    background-image: url('./logoandimg/adrienolichontwo.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for contrast */
+    display: flex;
+    align-items: center; 
+    opacity: 0.7;
+}
+
+.hero-section .col-md-6 img{
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 2rem; /* Adjust padding as needed */
+}
+.col-md-6.bg-dark{
+    opacity: 0.8;
+    border: none;
+}
+
+.hero-content>*{
+    padding: 0.17rem;
+}
+/* Our services */
+.hero-section {
+    position: relative;
+    min-height: 500px; /* Adjust as needed */
+    background-image: url('./logoandimg/jeanvandermulen.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the boxes horizontally */
+}
+
+.service-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px; 
+}
+
+.service-box h3 {
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.btn-get-started {
+    background-color: #ff9900; /* Customize button color */
+    color: #fff;
+}
+
+/* Who i am */
+.container-fluids {
+    min-height: 500px; /* Adjust height as needed */ 
+    background-color: #f0f0f0; /* Light gray background for example */
+    display: flex;
+    align-items: center; 
+}
+
+.left-section {
+    flex: 0 0 50%; /* Set width to 50% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    flex: 0 0 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section h2,
+.right-section p {
+    font-size: 18px; /* Set desired font size */
+}
+
+.intro-highlight {
+    font-size: 2.12rem; 
+    font-weight: 150;
+    
+  }
+
+.intro-highlight-para{
+    font-size: 1rem;
+    
+}
+
+.custom-btn{
+    padding: 18px 16px;
+    width: 25%;
+}
+
+
+/* Form Container */
+.containers{
+    width: 100%;
+}
+.form-container {
+    background-color: #333; /* Black background */
+    padding: 2rem;
+    color: #fff; /* White text color */
+    
+}
+
+/* Footer- */
+/* .footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 2rem 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    border-radius: 50%;
+    max-width: 100px; 
+}
+
+.footer-logo p {
+    margin-top: 10px;
+    font-size: 14px;
+} */
+
+
+Oldcopy
+.footer {
+    background-color: #333; /* Set the background color to match the image */
+    color: #fff; /* Set text color to white */
+    padding: 2rem 0; /* Add some padding */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-logo img{
+    border-radius: 50%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px; /* Adjust width as needed */
+}
+
+.social-icons a {
+    color: #000;
+    margin: 0 5px;
+}
+
+
+
